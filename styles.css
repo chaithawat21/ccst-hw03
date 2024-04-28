@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+    background-color: #EAEAEA;
+    width: 400px;
+    height: 800px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}   
+
+/* head part */
+.headbar {
+
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.arrow-back {
+    width: 50px;
+    height: 50px;
+}
+
+.name {
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.headbar h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.headbar h2 {
+    font-size: 12.5px;
+    font-weight: lighter;
+    color: gray;
+}
+
+.profile {
+    width: 50px;
+    height: 50px;
+}
+
+/* .green {
+    width: 50px;
+} */
+/* middle part */
+.chat {
+    padding: 5%;
+    overflow: auto;
+    height: 600px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 80%, rgba(0, 0, 0, .05) 100%);
+
+}
+
+.chat-left {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.chat01 {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.chat02 {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.option {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.chat03 {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.chat03-1 {
+    background-color: white;
+    padding: 10px;
+    /* border-radius: 10px; */
+}
+
+.chat03-2 {
+    background-color: white;
+    padding: 10px;
+}
+
+.chat03-3 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.chat-right p {
+    float: right;
+    width: 110px;
+
+
+    gap: 10px;
+    margin-top: 10px;
+    background-color: lightskyblue;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.lastchat {
+
+    margin-top: 280px;
+    width: 50px;
+    height: 50px;
+    background-color: lightgray;
+
+    border-radius: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    vertical-align: bottom;
+    background-color: white;
+    height: 140px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.smile {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+
+}
+
+input {
+    text-decoration: none;
+    border: 0px;
+    background-color: white;
+    color: gray;
+    width: 500px;
+    padding-left: 10px;
+    height: 100px;
+
+}
+
+.enter {
+    width: 50px;
+    height: 50px;
+    background-color: lightskyblue;
+    border-radius: 50px;
+    margin-left: 10px;
+
+}
